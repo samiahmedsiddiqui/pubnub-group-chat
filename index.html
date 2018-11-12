@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Simple Group Chat</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Group Chat using PubNub JavaScript SDK.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, PubNub, Chat, Group Chat, Demo">
+    <meta name="author" content="Sami Ahmed Siddiqui">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/style.min.css" media="all" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109088659-1"></script>
+  </head>
+  <body>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109088659-1');
+    </script>
+    <div class="page">
+      <h1>Simple Group Chat</h1>
+      <div id="main">
+        <div id="receiving-messages"></div>
+        <div id="chat">
+          <input type="text" id="message" placeholder="Type your message..." />
+          <div id="typing-status"></div>
+          <button id="send-message" type="submit">Send Message</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/pubnub.4.20.2.min.js"></script>
+    <script src="js/jquery.3.3.1.min.js"></script>
+    <script src="js/script.min.js"></script>
+  </body>
+</html>
