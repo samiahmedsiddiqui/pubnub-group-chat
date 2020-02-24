@@ -1,7 +1,7 @@
 {
   "name": "pubnub-group-chat",
   "version": "1.0.0",
-  "description": "PubNub Group Chat Demo using in NodeJS SDK.",
+  "description": "PubNub Group Chat Demo using in Node.js SDK.",
   "keywords": [
     "pubnub",
     "heroku",
@@ -13,7 +13,7 @@
     "url": "https://github.com/samiahmedsiddiqui/pubnub-group-chat/issues",
     "email": "sami.siddiqui@yasglobal.com"
   },
-  "license": "GPL-3.0",
+  "license": "MIT",
   "author": {
     "name": "Sami Ahmed Siddiqui",
     "email": "sami.siddiqui@yasglobal.com",
@@ -31,7 +31,6 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "express": "^4.16.4",
-    "pubnub": "^4.21.6"
+    "express": "^4.16.4"
   }
 }

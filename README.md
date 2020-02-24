@@ -1,9 +1,5 @@
-# PubNub Group Chat Demo
+# PubNub Group Chat
 
-This is a simple chat room demo in NodeJS using PubNub API.
+This is a simple group chat demo which builts in **HTML** and **JavaScript** and runs on the **Node.js** server. It is using [PubNub JavaScript SDK](https://www.pubnub.com/docs/web-javascript/pubnub-javascript-sdk) for realtime messaging. You can check the Live Demo from [here](https://pubnub-group-chat.herokuapp.com/).
 
-You can check the Live Demo from of JavaScript from [here](https://samiahmedsiddiqui.github.io/simple-group-chat/index.html) and Node.js is available [here](https://pubnub-group-chat.herokuapp.com/)
-
-If anyone of you found any issue so, please create the issue [here](https://github.com/samiahmedsiddiqui/pubnub-group-chat/issues)
-
-If anyone wants to provide their feedback So, Please feel free to email me at sami.siddiqui@yasglobal.com or contact on skype at sasiddiqui91. 
+If anyone wants to provide their feedback or have any concerns regarding it then please contact [Sami Ahmed Siddiqui](mailto:sami.siddiqui@yasglobal.com). 
